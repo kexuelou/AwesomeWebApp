@@ -112,6 +112,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\BakeryController.cs" />
     <Compile Include="Controllers\CdnDemoController.cs" />
     <Compile Include="Controllers\EasyAuthController.cs" />
     <Compile Include="Controllers\ErrorController.cs" />
@@ -166,6 +167,7 @@
     <Content Include="Views\PerfIssues\Index.cshtml" />
     <Content Include="Views\EasyAuth\index.cshtml" />
     <Content Include="Views\StagingSlots\index.cshtml" />
+    <Content Include="Views\Bakery\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
